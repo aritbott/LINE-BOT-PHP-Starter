@@ -47,8 +47,7 @@ if (!is_null($events['events'])) {
 echo "OK";*/
 
 //$strAccessToken = "ACCESS_TOKEN";
-$strAccessToken = 'HtgPvG1Wuvb+eHE/Os8UsbfeCR+RPRRrY60A+73HeC1ySEVWHUcwB3IdLu6B6Tyh/mF5hBh/puk0m1tcpKRKdxZW0CX/gtr1lqIps/LOQfQ7TGcTprx8117SBmeKUZtT9SIwf82P89S4z5NHzh5ZzwdB04t89/1O/w1cDnyilFU=';
-
+$strAccessToken = "Ubcdce1c91869da45e39258cdd03523dd";
 $content = file_get_contents('php://input');
 $arrJson = json_decode($content, true);
  
